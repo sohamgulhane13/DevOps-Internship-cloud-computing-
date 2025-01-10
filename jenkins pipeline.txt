@@ -1,0 +1,23 @@
+Started by user Soham Gulhane
+
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins
+ in C:\ProgramData\Jenkins\.jenkins\workspace\first pipeline
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] echo
+Building the application...
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Test)
+[Pipeline] echo
+Running tests...
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
