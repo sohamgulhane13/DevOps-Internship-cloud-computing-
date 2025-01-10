@@ -1,0 +1,27 @@
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - main
+      - feature-branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Install Dependencies
+      run: |
+        echo "Installing dependencies..."
+        # Add commands to install project dependencies if required
+        # Example: npm install or pip install -r requirements.txt
+
+    - name: Run Tests
+      run: |
+        echo "Running tests..."
+        # Add your test commands here
+        # Example: npm test or pytest
